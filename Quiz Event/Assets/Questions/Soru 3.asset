@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3ea4e9ad3148e47a838dea13bd26ac, type: 3}
+  m_Name: Soru 3
+  m_EditorClassIdentifier: 
+  questionText: "DOTWeen Kullanmak Gerekli Miymi\u015F?"
+  answers:
+  - EVET
+  - HAYIR
+  - "B\u0130LM\u0130YORUM"
+  - -------
+  correctAnswerIndex: 0
