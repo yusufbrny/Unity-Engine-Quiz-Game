@@ -30,7 +30,7 @@ public class QuizManager : MonoBehaviour
     
     void Update()
     {
-        //81YusufBrn98a766
+       
     }
 
     private void SetQuestion()
@@ -66,7 +66,7 @@ public class QuizManager : MonoBehaviour
                 quizPanel.SetActive(false);
                 panel.SetActive(true);
                 paneltext.color = Color.green;
-                paneltext.text = "Doðru Cevap!";
+                paneltext.text = "Doï¿½ru Cevap!";
             }
             else
             {
@@ -74,7 +74,7 @@ public class QuizManager : MonoBehaviour
                 quizPanel.SetActive(false);
                 panel.SetActive(true);
                 paneltext.color = Color.red;
-                paneltext.text = "Yanlýþ Cevap!";
+                paneltext.text = "Yanlï¿½ï¿½ Cevap!";
             }
         }
     }
