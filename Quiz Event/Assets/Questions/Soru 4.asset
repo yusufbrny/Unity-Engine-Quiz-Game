@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3ea4e9ad3148e47a838dea13bd26ac, type: 3}
   m_Name: Soru 4
   m_EditorClassIdentifier: 
-  questionText: "Gelmi\u015F Ge\xE7mi\u015F En \u0130yi Sanat\xE7\u0131 Kimdir?"
+  questionText: "CD Project Red hangi oyununda oyunculara bug partisi yapt\u0131rm\u0131\u015Ft\u0131r?"
   answers:
-  - Cem Karaca
-  - "Bar\u0131\u015F Man\xE7o"
-  - "Ne\u015Fet Erta\u015F"
-  - Hepsi
-  correctAnswerIndex: 3
+  - The Witcher 3
+  - Cyberpunk 2077
+  - The Witcher 2
+  - The Witcher 1
+  correctAnswerIndex: 1

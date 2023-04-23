@@ -960,6 +960,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535839625}
   m_CullTransparentMesh: 1
+--- !u!1 &555017111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 555017114}
+  - component: {fileID: 555017113}
+  - component: {fileID: 555017112}
+  m_Layer: 5
+  m_Name: ScoreText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &555017112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555017111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Skor : 1'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &555017113
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555017111}
+  m_CullTransparentMesh: 1
+--- !u!224 &555017114
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555017111}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1192192367}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 10, y: 0}
+  m_SizeDelta: {x: 132.8961, y: 37.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!1 &571771871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,7 +1641,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Soru Cevap Yar\u0131\u015Fmas\u0131"
+  m_text: "Soru Cevap Uygulamas\u0131"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -1778,12 +1913,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044d7263cd0fd5c4ba4f593c1b361ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questions:
+  allQuestions:
   - {fileID: 11400000, guid: 94e01a7ac4b3dda48aae65be85ecb319, type: 2}
   - {fileID: 11400000, guid: 0dcdb060fddc4bc40bb198dac33b7076, type: 2}
   - {fileID: 11400000, guid: ac3398766c7dc8b48b4d7e64a47ea282, type: 2}
   - {fileID: 11400000, guid: e06f9bd0fcbca074ea2acfe3e0102509, type: 2}
   - {fileID: 11400000, guid: f6cc090830d67234198b1c366a173667, type: 2}
+  - {fileID: 11400000, guid: b9c021dc9d642fa4c876e1411c35016f, type: 2}
+  - {fileID: 11400000, guid: 57a0db978e20e66438fb63776fe67287, type: 2}
+  - {fileID: 11400000, guid: 44d68029c1c486d4e94c04139543f439, type: 2}
+  - {fileID: 11400000, guid: 2b8694ec2fc239f4fb00f62595bddc63, type: 2}
+  - {fileID: 11400000, guid: badca315975d2984b9484ace1c3fae4c, type: 2}
+  - {fileID: 11400000, guid: c3edf6cca7e9ed349b83812de589f815, type: 2}
+  - {fileID: 11400000, guid: f601b646fbb1c0d499c04501f553864c, type: 2}
+  - {fileID: 11400000, guid: 171157b26e1a64f4a99d0b1968678d34, type: 2}
+  - {fileID: 11400000, guid: f07d91ec82904ae4480baeeb1a5d86c5, type: 2}
+  - {fileID: 11400000, guid: 8ace7b8c85218dc489c6d4cb7bc10c31, type: 2}
+  - {fileID: 11400000, guid: 7e8401723842b3840ba46300c7562f9f, type: 2}
+  - {fileID: 11400000, guid: 362213d4190c5f7428382c2b3189b33b, type: 2}
+  - {fileID: 11400000, guid: 43811e2dd0180eb4b8f42146ef303efd, type: 2}
+  - {fileID: 11400000, guid: b50b51d79fb5f9b4da0e485fdbcd0675, type: 2}
+  - {fileID: 11400000, guid: e4671dddeb8e30a46ac83b4736e14e4d, type: 2}
+  - {fileID: 11400000, guid: 66c8e6a9e47b651428f890dda950b458, type: 2}
   Answers:
   - {fileID: 1242881243}
   - {fileID: 646421308}
@@ -1800,6 +1951,8 @@ MonoBehaviour:
   quizPanel: {fileID: 1586379252}
   menuPanel: {fileID: 1688465511}
   paneltext: {fileID: 1662177868}
+  scorePoint: 0
+  scoreText: {fileID: 555017112}
 --- !u!1 &894177205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,6 +2194,7 @@ MonoBehaviour:
   - {fileID: 219950370}
   upYTransforms:
   - {fileID: 1662177870}
+  - {fileID: 555017114}
   scaleTransforms:
   - {fileID: 1525468636}
 --- !u!1 &1134684787
@@ -2221,6 +2375,7 @@ RectTransform:
   m_Children:
   - {fileID: 1586379253}
   - {fileID: 1074800281}
+  - {fileID: 555017114}
   m_Father: {fileID: 869700942}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3068,6 +3223,7 @@ MonoBehaviour:
   - {fileID: 450035377}
   upYTransforms:
   - {fileID: 2073636456}
+  - {fileID: 555017114}
   scaleTransforms:
   - {fileID: 1586379253}
 --- !u!1 &1662177867
@@ -3223,7 +3379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1688465512
 RectTransform:
   m_ObjectHideFlags: 0

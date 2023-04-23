@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 public class QuizManager : MonoBehaviour
 {
-    [Header("Main")]
-    public Question[] questions;
+    public Question[] allQuestions;
+
     public TextMeshProUGUI[] Answers;
     public AudioClip[] clips;
 
@@ -17,34 +18,42 @@ public class QuizManager : MonoBehaviour
     private int currentQuestion;
     private int correctAnswerIndex;
 
-    [Header("Panel")]
     public GameObject panel, mainMenuButton, quizPanel, menuPanel;
     public TextMeshProUGUI paneltext;
 
+    public int scorePoint;
+    public TextMeshProUGUI scoreText;
+
+
     void Start()
     {
+        scorePoint = PlayerPrefs.GetInt("Score");
+
         menuPanel.SetActive(true);
+
         SetQuestion();
     }
 
     
     void Update()
     {
-       
+        PlayerPrefs.SetInt("Score", scorePoint);
+        scoreText.text = " Skor : " + scorePoint.ToString();
+
     }
 
     private void SetQuestion()
     {
-        int questionIndex = currentQuestion % questions.Length;
+        int questionIndex = currentQuestion % allQuestions.Length;
 
-        QuestionText.text = questions[questionIndex].questionText;
+        QuestionText.text = allQuestions[questionIndex].questionText;
 
         for(int i = 0; i < Answers.Length; i++)
         {
-            Answers[i].text = questions[questionIndex].answers[i];
+            Answers[i].text = allQuestions[questionIndex].answers[i];
         }
 
-        correctAnswerIndex = questions[questionIndex].correctAnswerIndex;
+        correctAnswerIndex = allQuestions[questionIndex].correctAnswerIndex;
 
         currentQuestion ++;
     }
@@ -66,7 +75,9 @@ public class QuizManager : MonoBehaviour
                 quizPanel.SetActive(false);
                 panel.SetActive(true);
                 paneltext.color = Color.green;
-                paneltext.text = "Do�ru Cevap!";
+                paneltext.text = "Doğru Cevap!";
+
+                scorePoint += 10;
             }
             else
             {
@@ -74,7 +85,9 @@ public class QuizManager : MonoBehaviour
                 quizPanel.SetActive(false);
                 panel.SetActive(true);
                 paneltext.color = Color.red;
-                paneltext.text = "Yanl�� Cevap!";
+                paneltext.text = "Yanlış Cevap!";
+
+                scorePoint -= 5;
             }
         }
     }

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3ea4e9ad3148e47a838dea13bd26ac, type: 3}
   m_Name: Soru 2
   m_EditorClassIdentifier: 
-  questionText: "Bu Uygulamay\u0131 Ka\xE7 G\xFCnde Yapt\u0131m?"
+  questionText: "\"GTA V\" oyununda ka\xE7 tane ana karakter bulunuyor?"
   answers:
   - 1
   - 2
   - 3
   - 4
-  correctAnswerIndex: 1
+  correctAnswerIndex: 2

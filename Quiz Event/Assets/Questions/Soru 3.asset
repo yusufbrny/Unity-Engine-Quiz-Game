@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3ea4e9ad3148e47a838dea13bd26ac, type: 3}
   m_Name: Soru 3
   m_EditorClassIdentifier: 
-  questionText: "DOTWeen Kullanmak Gerekli Miymi\u015F?"
+  questionText: "\"Red Dead Redemption\" serisini yapan oyun st\xFCdyosu hangisidir?"
   answers:
-  - EVET
-  - HAYIR
-  - "B\u0130LM\u0130YORUM"
-  - -------
-  correctAnswerIndex: 0
+  - 5E4T Games
+  - Ubisoft
+  - 'EA '
+  - Rockstar Games
+  correctAnswerIndex: 3

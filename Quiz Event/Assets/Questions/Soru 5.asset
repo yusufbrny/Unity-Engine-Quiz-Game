@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3ea4e9ad3148e47a838dea13bd26ac, type: 3}
   m_Name: Soru 5
   m_EditorClassIdentifier: 
-  questionText: "2023'te Bitecek Olan Antla\u015Fma Hangisidir?"
+  questionText: "Rogue-lite t\xFCr\xFCnde t\xFCrk yap\u0131m\u0131 olan ve T\xFCrk
+    mitolojisini anlatan oyun hangisidir?"
   answers:
-  - "U\u015Fi Antla\u015Fmas\u0131"
-  - "Lozan Antla\u015Fmas\u0131"
-  - "Kade\u015F Antla\u015Fmas\u0131"
-  - "Karde\u015Flik Akdi"
-  correctAnswerIndex: 1
+  - Oddmar
+  - Asphalt 9
+  - Valheim
+  - Uruz
+  correctAnswerIndex: 3

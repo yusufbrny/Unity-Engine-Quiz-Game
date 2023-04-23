@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc3ea4e9ad3148e47a838dea13bd26ac, type: 3}
-  m_Name: Soru 1
+  m_Name: Soru 21
   m_EditorClassIdentifier: 
-  questionText: '"The Witcher" oyun serisinin ana karakteri kimdir?'
+  questionText: "\"At\u0131n \xFCst\xFCndeki T\xFCrk de\u011Fil ise y\xFCkt\xFCr\"
+    s\xF6z\xFC kime aittir?"
   answers:
-  - Gerald
-  - Arthur Morgan
-  - Franklin
-  - Steve
+  - Yusuf Tuna
+  - Emir Timur
+  - "Temu\xE7in"
+  - "Reza \u015Eah"
   correctAnswerIndex: 0
