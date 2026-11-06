@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+*_BurstDebugInformation_DoNotShip/
+**/ProjectSettings/BurstAotSettings*.json
+**/ProjectSettings/CommonBurstAotSettings.json
